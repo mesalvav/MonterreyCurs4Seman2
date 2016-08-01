@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB6464D81D4E90B4008FD068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6464D71D4E90B4008FD068 /* AppDelegate.swift */; };
+		AB6464DD1D4E90B4008FD068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6464DB1D4E90B4008FD068 /* Main.storyboard */; };
+		AB6464E01D4E90B4008FD068 /* CajaMusical.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB6464DE1D4E90B4008FD068 /* CajaMusical.xcdatamodeld */; };
+		AB6464E21D4E90B4008FD068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6464E11D4E90B4008FD068 /* Assets.xcassets */; };
+		AB6464E51D4E90B4008FD068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6464E31D4E90B4008FD068 /* LaunchScreen.storyboard */; };
+		AB6464F71D4E9731008FD068 /* AgainstAllOddsPhil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6464ED1D4E9731008FD068 /* AgainstAllOddsPhil.mp3 */; };
+		AB6464F81D4E9731008FD068 /* AmericanWomanLenny.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6464EE1D4E9731008FD068 /* AmericanWomanLenny.mp3 */; };
+		AB6464F91D4E9731008FD068 /* BelieveCher.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB6464EF1D4E9731008FD068 /* BelieveCher.jpg */; };
+		AB6464FA1D4E9731008FD068 /* BelieveCher.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6464F01D4E9731008FD068 /* BelieveCher.mp3 */; };
+		AB6464FB1D4E9731008FD068 /* BufaloSoldier.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6464F11D4E9731008FD068 /* BufaloSoldier.mp3 */; };
+		AB6464FC1D4E9731008FD068 /* BuffaloSoldierMarley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB6464F21D4E9731008FD068 /* BuffaloSoldierMarley.jpg */; };
+		AB6464FD1D4E9731008FD068 /* LennyAmericanWoman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB6464F31D4E9731008FD068 /* LennyAmericanWoman.jpg */; };
+		AB6464FE1D4E9731008FD068 /* PhilAgainstAllOdds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB6464F41D4E9731008FD068 /* PhilAgainstAllOdds.jpg */; };
+		AB6464FF1D4E9731008FD068 /* TotoAfrica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB6464F51D4E9731008FD068 /* TotoAfrica.jpg */; };
+		AB6465001D4E9731008FD068 /* totoAfrica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6464F61D4E9731008FD068 /* totoAfrica.mp3 */; };
+		AB6465021D4E9840008FD068 /* ListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6465011D4E9840008FD068 /* ListaTableViewController.swift */; };
+		AB6465041D4E9897008FD068 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6465031D4E9897008FD068 /* PlayerViewController.swift */; };
+		AB6465061D4EA48B008FD068 /* Cancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6465051D4EA48B008FD068 /* Cancion.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB6464D41D4E90B4008FD068 /* CajaMusical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CajaMusical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6464D71D4E90B4008FD068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB6464DC1D4E90B4008FD068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB6464DF1D4E90B4008FD068 /* CajaMusical.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CajaMusical.xcdatamodel; sourceTree = "<group>"; };
+		AB6464E11D4E90B4008FD068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB6464E41D4E90B4008FD068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB6464E61D4E90B4008FD068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB6464ED1D4E9731008FD068 /* AgainstAllOddsPhil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AgainstAllOddsPhil.mp3; sourceTree = "<group>"; };
+		AB6464EE1D4E9731008FD068 /* AmericanWomanLenny.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AmericanWomanLenny.mp3; sourceTree = "<group>"; };
+		AB6464EF1D4E9731008FD068 /* BelieveCher.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BelieveCher.jpg; sourceTree = "<group>"; };
+		AB6464F01D4E9731008FD068 /* BelieveCher.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BelieveCher.mp3; sourceTree = "<group>"; };
+		AB6464F11D4E9731008FD068 /* BufaloSoldier.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BufaloSoldier.mp3; sourceTree = "<group>"; };
+		AB6464F21D4E9731008FD068 /* BuffaloSoldierMarley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BuffaloSoldierMarley.jpg; sourceTree = "<group>"; };
+		AB6464F31D4E9731008FD068 /* LennyAmericanWoman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LennyAmericanWoman.jpg; sourceTree = "<group>"; };
+		AB6464F41D4E9731008FD068 /* PhilAgainstAllOdds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PhilAgainstAllOdds.jpg; sourceTree = "<group>"; };
+		AB6464F51D4E9731008FD068 /* TotoAfrica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TotoAfrica.jpg; sourceTree = "<group>"; };
+		AB6464F61D4E9731008FD068 /* totoAfrica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = totoAfrica.mp3; sourceTree = "<group>"; };
+		AB6465011D4E9840008FD068 /* ListaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaTableViewController.swift; sourceTree = "<group>"; };
+		AB6465031D4E9897008FD068 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		AB6465051D4EA48B008FD068 /* Cancion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancion.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB6464D11D4E90B4008FD068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB6464CB1D4E90B4008FD068 = {
+			isa = PBXGroup;
+			children = (
+				AB6464D61D4E90B4008FD068 /* CajaMusical */,
+				AB6464D51D4E90B4008FD068 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB6464D51D4E90B4008FD068 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB6464D41D4E90B4008FD068 /* CajaMusical.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB6464D61D4E90B4008FD068 /* CajaMusical */ = {
+			isa = PBXGroup;
+			children = (
+				AB6464EC1D4E9731008FD068 /* Informacion */,
+				AB6464D71D4E90B4008FD068 /* AppDelegate.swift */,
+				AB6465051D4EA48B008FD068 /* Cancion.swift */,
+				AB6464DB1D4E90B4008FD068 /* Main.storyboard */,
+				AB6464E11D4E90B4008FD068 /* Assets.xcassets */,
+				AB6464E31D4E90B4008FD068 /* LaunchScreen.storyboard */,
+				AB6464E61D4E90B4008FD068 /* Info.plist */,
+				AB6464DE1D4E90B4008FD068 /* CajaMusical.xcdatamodeld */,
+				AB6465011D4E9840008FD068 /* ListaTableViewController.swift */,
+				AB6465031D4E9897008FD068 /* PlayerViewController.swift */,
+			);
+			path = CajaMusical;
+			sourceTree = "<group>";
+		};
+		AB6464EC1D4E9731008FD068 /* Informacion */ = {
+			isa = PBXGroup;
+			children = (
+				AB6464ED1D4E9731008FD068 /* AgainstAllOddsPhil.mp3 */,
+				AB6464EE1D4E9731008FD068 /* AmericanWomanLenny.mp3 */,
+				AB6464EF1D4E9731008FD068 /* BelieveCher.jpg */,
+				AB6464F01D4E9731008FD068 /* BelieveCher.mp3 */,
+				AB6464F11D4E9731008FD068 /* BufaloSoldier.mp3 */,
+				AB6464F21D4E9731008FD068 /* BuffaloSoldierMarley.jpg */,
+				AB6464F31D4E9731008FD068 /* LennyAmericanWoman.jpg */,
+				AB6464F41D4E9731008FD068 /* PhilAgainstAllOdds.jpg */,
+				AB6464F51D4E9731008FD068 /* TotoAfrica.jpg */,
+				AB6464F61D4E9731008FD068 /* totoAfrica.mp3 */,
+			);
+			path = Informacion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB6464D31D4E90B4008FD068 /* CajaMusical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6464E91D4E90B4008FD068 /* Build configuration list for PBXNativeTarget "CajaMusical" */;
+			buildPhases = (
+				AB6464D01D4E90B4008FD068 /* Sources */,
+				AB6464D11D4E90B4008FD068 /* Frameworks */,
+				AB6464D21D4E90B4008FD068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CajaMusical;
+			productName = CajaMusical;
+			productReference = AB6464D41D4E90B4008FD068 /* CajaMusical.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB6464CC1D4E90B4008FD068 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Dunas;
+				TargetAttributes = {
+					AB6464D31D4E90B4008FD068 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3X5FPFF437;
+					};
+				};
+			};
+			buildConfigurationList = AB6464CF1D4E90B4008FD068 /* Build configuration list for PBXProject "CajaMusical" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB6464CB1D4E90B4008FD068;
+			productRefGroup = AB6464D51D4E90B4008FD068 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB6464D31D4E90B4008FD068 /* CajaMusical */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB6464D21D4E90B4008FD068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6465001D4E9731008FD068 /* totoAfrica.mp3 in Resources */,
+				AB6464E51D4E90B4008FD068 /* LaunchScreen.storyboard in Resources */,
+				AB6464FD1D4E9731008FD068 /* LennyAmericanWoman.jpg in Resources */,
+				AB6464FA1D4E9731008FD068 /* BelieveCher.mp3 in Resources */,
+				AB6464FB1D4E9731008FD068 /* BufaloSoldier.mp3 in Resources */,
+				AB6464E21D4E90B4008FD068 /* Assets.xcassets in Resources */,
+				AB6464FF1D4E9731008FD068 /* TotoAfrica.jpg in Resources */,
+				AB6464FC1D4E9731008FD068 /* BuffaloSoldierMarley.jpg in Resources */,
+				AB6464F81D4E9731008FD068 /* AmericanWomanLenny.mp3 in Resources */,
+				AB6464DD1D4E90B4008FD068 /* Main.storyboard in Resources */,
+				AB6464FE1D4E9731008FD068 /* PhilAgainstAllOdds.jpg in Resources */,
+				AB6464F91D4E9731008FD068 /* BelieveCher.jpg in Resources */,
+				AB6464F71D4E9731008FD068 /* AgainstAllOddsPhil.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB6464D01D4E90B4008FD068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6464E01D4E90B4008FD068 /* CajaMusical.xcdatamodeld in Sources */,
+				AB6465041D4E9897008FD068 /* PlayerViewController.swift in Sources */,
+				AB6464D81D4E90B4008FD068 /* AppDelegate.swift in Sources */,
+				AB6465061D4EA48B008FD068 /* Cancion.swift in Sources */,
+				AB6465021D4E9840008FD068 /* ListaTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB6464DB1D4E90B4008FD068 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB6464DC1D4E90B4008FD068 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB6464E31D4E90B4008FD068 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB6464E41D4E90B4008FD068 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB6464E71D4E90B4008FD068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB6464E81D4E90B4008FD068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB6464EA1D4E90B4008FD068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CajaMusical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dunas.CajaMusical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB6464EB1D4E90B4008FD068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CajaMusical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dunas.CajaMusical;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB6464CF1D4E90B4008FD068 /* Build configuration list for PBXProject "CajaMusical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6464E71D4E90B4008FD068 /* Debug */,
+				AB6464E81D4E90B4008FD068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6464E91D4E90B4008FD068 /* Build configuration list for PBXNativeTarget "CajaMusical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6464EA1D4E90B4008FD068 /* Debug */,
+				AB6464EB1D4E90B4008FD068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB6464DE1D4E90B4008FD068 /* CajaMusical.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB6464DF1D4E90B4008FD068 /* CajaMusical.xcdatamodel */,
+			);
+			currentVersion = AB6464DF1D4E90B4008FD068 /* CajaMusical.xcdatamodel */;
+			path = CajaMusical.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB6464CC1D4E90B4008FD068 /* Project object */;
+}
